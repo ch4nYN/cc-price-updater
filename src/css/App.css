@@ -1,0 +1,30 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container .header {
+  text-align: center;
+  margin-top: -2px;
+  font-size: 32px;
+}
+.price-container {
+  text-align: center;
+}
+.price-container > div {
+  width: 30%;
+  display: inline-block;
+}
+.price-container div p {
+  font-size: 24px;
+}
+#box {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+}
+.price-up {
+  background-color: green !important;
+}
+.price-down {
+  background-color: red !important;
+}
